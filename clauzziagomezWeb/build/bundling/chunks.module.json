@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "d2773a034d56d90d2e79",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\CodesignOmen\\Desktop\\JL\\WebClauzz\\clauzziagomezWeb\\build\\static",
+  "assetsByChunkName": {
+    "clauzziagomezweb": "clauzziagomezweb.module.js"
+  },
+  "assets": [],
+  "filteredAssets": 1,
+  "namedChunkGroups": {
+    "clauzziagomezweb": {
+      "chunks": [
+        "clauzziagomezweb"
+      ],
+      "assets": [
+        "clauzziagomezweb.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "clauzziagomezweb",
+      "files": [
+        "clauzziagomezweb.module.js"
+      ]
+    }
+  ]
+}
