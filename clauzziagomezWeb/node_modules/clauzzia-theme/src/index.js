@@ -1,11 +1,4 @@
-const Root = () => {
-  return (
-    <>
-      You can edit your package in:
-      <pre>packages\clauzzia-theme\src\index.js</pre>
-    </>
-  );
-};
+import Root from './Root'
 
 export default {
   name: "clauzzia-theme",

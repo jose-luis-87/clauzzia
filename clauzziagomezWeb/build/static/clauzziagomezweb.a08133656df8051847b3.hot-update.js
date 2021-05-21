@@ -1,0 +1,15 @@
+webpackHotUpdate("clauzziagomezweb",{
+
+/***/ "./packages/clauzzia-theme/src/components/Proyectos.js":
+/*!*************************************************************!*\
+  !*** ./packages/clauzzia-theme/src/components/Proyectos.js ***!
+  \*************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var frontity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! frontity */ \"./node_modules/frontity/dist/src/index.js\");\n/* harmony import */ var frontity__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(frontity__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/react/jsx-runtime */ \"./node_modules/@emotion/react/jsx-runtime/dist/emotion-react-jsx-runtime.browser.esm.js\");\nconst Proyectos=({state,actions})=>{return Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__[\"jsx\"])(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__[\"Fragment\"],{children:Object(_emotion_react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__[\"jsx\"])(\"h2\",{children:\"Proyectos\"})});};/* harmony default export */ __webpack_exports__[\"default\"] = (Object(frontity__WEBPACK_IMPORTED_MODULE_1__[\"connect\"])(Proyectos));//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9wYWNrYWdlcy9jbGF1enppYS10aGVtZS9zcmMvY29tcG9uZW50cy9Qcm95ZWN0b3MuanM/ZDUzYyJdLCJuYW1lcyI6WyJQcm95ZWN0b3MiLCJzdGF0ZSIsImFjdGlvbnMiLCJjb25uZWN0Il0sIm1hcHBpbmdzIjoiQUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFHQSxLQUFNQSxVQUFTLENBQUcsQ0FBQyxDQUFDQyxLQUFELENBQVFDLE9BQVIsQ0FBRCxHQUFvQixDQUVsQyxNQUNJLHNKQUVDLG1HQUZELEVBREosQ0FRSCxDQVZELENBV2dCQyx1SEFBTyxDQUFDSCxTQUFELENBQXRCIiwiZmlsZSI6Ii4vcGFja2FnZXMvY2xhdXp6aWEtdGhlbWUvc3JjL2NvbXBvbmVudHMvUHJveWVjdG9zLmpzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7dXNlRWZmZWN0LCB1c2VTdGF0ZX0gZnJvbSAncmVhY3QnXHJcbmltcG9ydCB7Y29ubmVjdH0gZnJvbSAnZnJvbnRpdHknXHJcblxyXG5jb25zdCBQcm95ZWN0b3MgPSAoe3N0YXRlLCBhY3Rpb25zfSk9PntcclxuICAgIFxyXG4gICAgcmV0dXJuKFxyXG4gICAgICAgIDw+XHJcbiAgICAgICAgXHJcbiAgICAgICAgIDxoMj5Qcm95ZWN0b3M8L2gyPlxyXG4gICAgICAgIFxyXG4gICAgICAgICBcclxuICAgICAgICA8Lz5cclxuICAgIClcclxufVxyXG4gZXhwb3J0IGRlZmF1bHQgY29ubmVjdChQcm95ZWN0b3MpIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./packages/clauzzia-theme/src/components/Proyectos.js\n");
+
+/***/ })
+
+})
