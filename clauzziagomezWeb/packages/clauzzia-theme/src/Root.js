@@ -5,6 +5,7 @@ import Fotos from './components/Fotos'
 import Videos from './components/Videos'
 import Proyectos from './components/Proyectos'
 import Loading from './components/Loading'
+import Base from './styles/Base'
 
 
 const Root = ({state, actions}) => {
@@ -17,7 +18,7 @@ const Root = ({state, actions}) => {
 
      setTimeout(()=>{
          setLoading(false)
-     },3000)
+     },2000)
 
      if(loading){
          return(
@@ -28,6 +29,7 @@ const Root = ({state, actions}) => {
      else{
          return (
       <>
+        <Base/>
         <Header/>
         <Fotos/>
         <Videos/>

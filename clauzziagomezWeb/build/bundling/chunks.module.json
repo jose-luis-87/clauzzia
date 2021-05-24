@@ -1,14 +1,27 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "d65f608edfe83a62649d",
+  "hash": "0e2f9a09b79ed2349bfd",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\CodesignOmen\\Desktop\\JL\\WebClauzz\\clauzziagomezWeb\\build\\static",
   "assetsByChunkName": {
     "clauzziagomezweb": "clauzziagomezweb.module.js"
   },
-  "assets": [],
-  "filteredAssets": 1,
+  "assets": [
+    {
+      "name": "clauzziagomezweb.module.js",
+      "size": 6343446,
+      "chunks": [
+        "clauzziagomezweb"
+      ],
+      "chunkNames": [
+        "clauzziagomezweb"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
   "namedChunkGroups": {
     "clauzziagomezweb": {
       "chunks": [
