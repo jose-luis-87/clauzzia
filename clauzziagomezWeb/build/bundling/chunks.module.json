@@ -1,34 +1,25 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "0e2f9a09b79ed2349bfd",
+  "hash": "46430f684530026678e3",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\CodesignOmen\\Desktop\\JL\\WebClauzz\\clauzziagomezWeb\\build\\static",
   "assetsByChunkName": {
-    "clauzziagomezweb": "clauzziagomezweb.module.js"
+    "clauzziagomezweb": [
+      "clauzziagomezweb.module.js",
+      "clauzziagomezweb.8007be94c9912764e9aa.hot-update.js"
+    ]
   },
-  "assets": [
-    {
-      "name": "clauzziagomezweb.module.js",
-      "size": 6343446,
-      "chunks": [
-        "clauzziagomezweb"
-      ],
-      "chunkNames": [
-        "clauzziagomezweb"
-      ],
-      "info": {},
-      "emitted": true
-    }
-  ],
-  "filteredAssets": 0,
+  "assets": [],
+  "filteredAssets": 3,
   "namedChunkGroups": {
     "clauzziagomezweb": {
       "chunks": [
         "clauzziagomezweb"
       ],
       "assets": [
-        "clauzziagomezweb.module.js"
+        "clauzziagomezweb.module.js",
+        "clauzziagomezweb.8007be94c9912764e9aa.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -39,7 +30,8 @@
     {
       "id": "clauzziagomezweb",
       "files": [
-        "clauzziagomezweb.module.js"
+        "clauzziagomezweb.module.js",
+        "clauzziagomezweb.8007be94c9912764e9aa.hot-update.js"
       ]
     }
   ]

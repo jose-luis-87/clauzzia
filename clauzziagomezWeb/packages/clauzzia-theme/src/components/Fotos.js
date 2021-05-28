@@ -1,22 +1,12 @@
-import React, {useEffect} from 'react'
-import {connect, state, styled, css} from 'frontity'
-import {Container, H1, HorizontalCenter, Carousel, Item, colors} from './Carousel'
+import React from 'react'
+import {connect} from 'frontity'
+import {Container, H1, HorizontalCenter, Carousel, Item} from './Carousel'
 
- 
-  const numbersArray = Array.from(Array(10).keys()).map((number) => (
-    <Item size={5} style={{color: 'black'}} key={number}>
-      {number}
-    </Item>
-  ))
-  
-  
 const Fotos = ({state})=>{
     
     const fotos = Object.values(state.source.fotografia)    
-    let media = fotos[2].featured_media
     const source = state.source.attachment
-    console.log(source[media].source_url)
-    
+
     return(
         <>
             <Container>
@@ -24,10 +14,9 @@ const Fotos = ({state})=>{
                 <HorizontalCenter>
                     <Carousel>
                         {fotos.map((foto) => (
-                            
                             <Item
-                            size={20}
-                            style={{background: 'transparent', borderRadius: '20px', opacity: 0.9}}
+                            size={30}
+                            style={{backgroundImage: `url(${source[foto.featured_media].source_url})`, borderRadius: '16px', opacity: 0.9}}
                             key={foto.id}
                             >
                             <p key={foto.id} dangerouslySetInnerHTML={{__html:foto.title.rendered}}></p>
@@ -35,15 +24,7 @@ const Fotos = ({state})=>{
                         ))}
                     </Carousel>
                 </HorizontalCenter>
-
             </Container>
-
-
-           {/* {fotos.map((foto) =>{
-               return(
-                   <p key={foto.id} dangerouslySetInnerHTML={{__html:foto.title.rendered}}></p>
-               )
-           })} */}
         </>
     )
 }

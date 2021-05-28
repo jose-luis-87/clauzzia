@@ -6,8 +6,8 @@ const Header = () => {
         <NavBar>
             <NavLeft>
                 <Link href="/">
-                    <h1>Clauzzia Gómez</h1>
-                    <p>Fotografía y realización audiovisual</p>
+                    <LogoTxt>Clauzzia Gómez</LogoTxt>
+                    <Slogan>Fotografía y realización audiovisual</Slogan>
                 </Link>
             </NavLeft>
             <NavRight>
@@ -47,4 +47,16 @@ const NavRight = styled.div`
     div{
         margin-left: 48px;
     }
+`
+const LogoTxt = styled.h1`
+    font-size: 62px;
+    font-weight: 300;
+    margin-block-start: 0.15em;
+    margin-block-end: 0em;
+`
+
+const Slogan = styled.p`
+    font-size: 16px;
+    margin-block-start: 0.15em;
+    margin-block-end: 2em;
 `

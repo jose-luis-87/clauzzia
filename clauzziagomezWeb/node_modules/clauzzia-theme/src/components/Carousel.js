@@ -5,7 +5,7 @@ export const H1 = styled.h2`
   text-align: left;
   margin: 0;
   margin-left: 24px;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
 `
 
 const Relative = styled.div`
@@ -26,19 +26,30 @@ export const HorizontalCenter = styled(Flex)`
 export const Container = styled.div`
   height: stretch;
   width: 100%;
-
+  padding-bottom: 2rem;
   background: transparent;
 `
 
 export const Item = styled.div`
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   text-transform: capitalize;
   width: ${({size}) => `${size}rem`};
-  height: ${({size}) => `${size}rem`};
+  height: ${({size}) => `${size/2}rem`};
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  >p{
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
 `
 
 function getPrevElement(list) {
@@ -261,15 +272,3 @@ export function Carousel({children}) {
     </CarouserContainer>
   )
 }
-
-export const colors = [
-  '#f1c40f',
-  '#f39c12',
-  '#e74c3c',
-  '#16a085',
-  '#2980b9',
-  '#8e44ad',
-  '#2c3e50',
-  '#95a5a6',
-]
-
