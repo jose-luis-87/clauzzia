@@ -28,8 +28,13 @@ const Header = () => {
 export default connect(Header)
 
 const NavBar = styled.nav`
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
     display: flex;
     flex-direction: row;
+    width: 100%;
 `
 
 const NavLeft = styled.div`

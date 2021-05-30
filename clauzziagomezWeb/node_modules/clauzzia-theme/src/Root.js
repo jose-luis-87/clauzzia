@@ -7,6 +7,9 @@ import Videos from './components/Videos'
 import Proyectos from './components/Proyectos'
 import Loading from './components/Loading'
 import Hero from './components/Hero'
+import SocialMedia from './components/SocialMedia'
+import About from './components/About'
+import Contacto from './components/Contacto'
 
 const Root = ({state, actions}) => {
 
@@ -34,9 +37,12 @@ const Root = ({state, actions}) => {
         <Base/>
         <Header/>
         <Hero/>
+        <About/>
         <Fotos/>
         <Videos/>
         <Proyectos/>
+        <Contacto/>
+        <SocialMedia/>
       </>
     );
      }
