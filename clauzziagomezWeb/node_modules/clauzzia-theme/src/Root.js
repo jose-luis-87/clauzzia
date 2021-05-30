@@ -6,8 +6,7 @@ import Fotos from './components/Fotos'
 import Videos from './components/Videos'
 import Proyectos from './components/Proyectos'
 import Loading from './components/Loading'
-
-
+import Hero from './components/Hero'
 
 const Root = ({state, actions}) => {
 
@@ -26,8 +25,7 @@ const Root = ({state, actions}) => {
      if(loading){
          return(
              <Loading/>
-         )
-         
+         ) 
      }
      else{
         
@@ -35,6 +33,7 @@ const Root = ({state, actions}) => {
       <>
         <Base/>
         <Header/>
+        <Hero/>
         <Fotos/>
         <Videos/>
         <Proyectos/>

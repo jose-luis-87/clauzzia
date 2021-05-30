@@ -20,9 +20,7 @@ const Header = () => {
                 <div>
                     <p>Contacto</p>
                 </div>
-              
             </NavRight>
-            
         </NavBar>
     )
 }
