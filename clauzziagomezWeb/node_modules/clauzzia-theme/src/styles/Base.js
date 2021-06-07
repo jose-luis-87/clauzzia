@@ -22,7 +22,7 @@ const Base = () => {
 
                 body{
                     margin: 0;
-                    background-color: ${primaryGreen}
+                    background-color: transparent;
                 }
 
                 h1{
@@ -32,6 +32,9 @@ const Base = () => {
                 a{
                     text-decoration: none;
                     color: ${ligthText};
+                }
+                ::-webkit-scrollbar {
+                    display: none;
                 }
             `)
             }

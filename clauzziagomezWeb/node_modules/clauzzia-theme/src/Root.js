@@ -1,6 +1,7 @@
 import Base from './styles/Base'
 import React, {useEffect,useState} from 'react'
-import { connect } from 'frontity'
+import { connect, styled } from 'frontity'
+import bgSpikes from './assets/Portfoli-Desktop.jpg'
 import Header from './components/Header'
 import Fotos from './components/Fotos'
 import Videos from './components/Videos'
@@ -19,6 +20,7 @@ const Root = ({state, actions}) => {
         actions.source.fetch("/fotos")
         actions.source.fetch("/videos")
         actions.source.fetch("/proyectos")
+        actions.source.fetch("/testimoniales")
      },[])
 
      setTimeout(()=>{
@@ -33,7 +35,7 @@ const Root = ({state, actions}) => {
      else{
         
          return (
-      <>
+      <WrapperRoot >
         <Base/>
         <Header/>
         <Hero/>
@@ -43,7 +45,7 @@ const Root = ({state, actions}) => {
         <Proyectos/>
         <Contacto/>
         <SocialMedia/>
-      </>
+      </WrapperRoot >
     );
      }
     
@@ -51,3 +53,9 @@ const Root = ({state, actions}) => {
 
   export default connect(Root)
   
+const WrapperRoot = styled.div`
+     background: url(${bgSpikes});
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+`

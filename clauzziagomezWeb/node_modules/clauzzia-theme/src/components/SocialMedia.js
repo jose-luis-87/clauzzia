@@ -43,7 +43,7 @@ const SocialMedia = ({state})=>{
     align-items: center;
     justify-content: center;
     background: rgb(0,54,58);
-    background: linear-gradient(0deg, rgba(0,54,58,1) 6%, rgba(0,54,58,0.8158613787311799) 30%, rgba(0,54,58,0) 62%);
+    background: linear-gradient(0deg, rgba(23,113,119,1) 6%, rgba(23,113,119,0.8158613787311799) 30%, rgba(23,113,119,0) 62%);
     >a{
         display: flex;
         align-items: center;

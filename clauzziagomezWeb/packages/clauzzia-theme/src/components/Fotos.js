@@ -1,5 +1,5 @@
 import React from 'react'
-import {connect} from 'frontity'
+import {connect, styled} from 'frontity'
 import {Container, H1, HorizontalCenter, Carousel, Item} from './Carousel'
 
 const Fotos = ({state})=>{
@@ -8,7 +8,7 @@ const Fotos = ({state})=>{
     const source = state.source.attachment
 
     return(
-        <>
+        <WrapperFotos>
             <Container>
                 <H1>Fotografía</H1>
                 <HorizontalCenter>
@@ -25,7 +25,12 @@ const Fotos = ({state})=>{
                     </Carousel>
                 </HorizontalCenter>
             </Container>
-        </>
+        </WrapperFotos>
     )
 }
  export default connect(Fotos)
+
+ const WrapperFotos = styled.div`
+
+    margin-top: 12%;
+ `
