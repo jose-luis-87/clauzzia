@@ -1,17 +1,28 @@
 {
   "errors": [],
   "warnings": [],
-  "hash": "cd6ad9b9a13683449c1f",
+  "hash": "2389a95b0ce9ca1faa58",
   "publicPath": "/static/",
   "outputPath": "C:\\Users\\CodesignOmen\\Desktop\\JL\\WebClauzz\\clauzziagomezWeb\\build\\static",
   "assetsByChunkName": {
     "clauzziagomezweb": [
       "clauzziagomezweb.module.js",
-      "clauzziagomezweb.dbcbaf72d9ced2c8b401.hot-update.js"
+      "clauzziagomezweb.c35fd065563c06a1b75f.hot-update.js"
     ]
   },
-  "assets": [],
-  "filteredAssets": 10,
+  "assets": [
+    {
+      "name": "images/Contact-Desktop.jpg",
+      "size": 144508,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "sourceFilename": "packages/clauzzia-theme/src/assets/Contact-Desktop.jpg"
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 13,
   "namedChunkGroups": {
     "clauzziagomezweb": {
       "chunks": [
@@ -19,7 +30,7 @@
       ],
       "assets": [
         "clauzziagomezweb.module.js",
-        "clauzziagomezweb.dbcbaf72d9ced2c8b401.hot-update.js"
+        "clauzziagomezweb.c35fd065563c06a1b75f.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -31,7 +42,7 @@
       "id": "clauzziagomezweb",
       "files": [
         "clauzziagomezweb.module.js",
-        "clauzziagomezweb.dbcbaf72d9ced2c8b401.hot-update.js"
+        "clauzziagomezweb.c35fd065563c06a1b75f.hot-update.js"
       ]
     }
   ]
